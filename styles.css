@@ -1,48 +1,73 @@
 /* External CSS */
 
+/* body is a CSS Selector */
+/* {} idicates a CSS Declaration */
 body {
-  /* Body er en CSS selector*/
-  /*{}indikerer CSS declaration*/
-  /* Propaty: value; som er en CSS rule*/
-  background-color: rgb(35, 239, 232);
+  /* property:value; is a CSS Rule */
+  background-color: #fdfdfd;
+  color: #0d0d0d;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+}
+
+.headerLogo {
+  padding: 8px;
+  border: 2px solid black;
+  border-radius: 50%;
 }
 
 ul {
   display: flex;
   justify-content: end;
-  gap: 10px;
+  gap: 15px;
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-/* id-navn selector */
 
-<section class="FirstSecion">
-<div class="card">
-.firstSecion {
+/* MAIN */
+main {
+  height: 100vh;
+}
+
+.firstSection {
 
 }
- .card { 
-         width: 300px;
-         height: 300px;
-         border: 2px solid black;
-       }
 
- .img
+.card {
+  width: 500px;
+  /* height: 300px; */
+  border: 2px solid black;
+  display: flex;
+} 
 
 .cardText {
-  width 50%
--ms-flex-align: ;
-
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
 }
 
- .cardImg: {
- width 50%
-      }
-
-.cardLink: {
+.cardLinks {
   display: flex;
-  Gap: 10px;
-  margin
+  gap: 10px;
+  margin-bottom: 20px;
+}
 
+.cardImg {
+  width: 50%;
+}
+
+/* FOOTER */
+footer {
+  display: flex;
+  justify-content: center;
 }
